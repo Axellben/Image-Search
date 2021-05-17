@@ -1,0 +1,26 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 80%;
+  margin: 3rem auto 0 auto;
+}
+
+#images {
+  column-count: 3;
+}
+
+img {
+  width: 100%;
+}
+
+#loadingImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loadingImage img {
+  max-width: 75rem;
+}

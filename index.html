@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🐈 Image Search</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🐈 Image Search</h1>
+
+    <form>
+      <h4>Search Term</h4>
+      <input
+        class="u-full-width"
+        type="text"
+        name="searchTerm"
+        id="searchTerm"
+        autocomplete="off"
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="loadingImage">
+      <img src="loading.gif" />
+    </div>
+
+    <section id="images"></section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
